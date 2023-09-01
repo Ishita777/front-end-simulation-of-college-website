@@ -1,0 +1,111 @@
+
+        .required{
+            background-color: black;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        .LOGO{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .navigationBackground{
+            display: flex;
+            cursor:pointer;
+            padding:14px;
+        }   
+        .navigationList{
+            width: 70px;
+            display:flex;
+            align-content: center;
+            list-style-type: none;
+            font-family:'Gill Sans', 'Gill Sans MT', 'Calibr', 'Trebuchet MS', sans-serif;
+            font-size:17px;
+        }
+        .navigationList a{
+            float:left;
+            padding: 20px 20px;
+            text-decoration: none;
+        }
+        .navigationList a:hover{
+           color:rgb(14, 1, 2);
+        }
+        #searchBar{
+            float:right;
+            padding:12px;
+            color:black;
+            margin-left:16px;
+            margin-top:8px;
+            margin-right:16px;
+        }
+        .foot{
+            display: flex;
+            cursor:pointer;
+            padding:14px;
+        }
+        .footList{
+            width: 70px;
+            display:flex;
+            align-content: center;
+            color:blue;
+            
+        }
+        .footList a{
+            float:left;
+            padding: 14px 16px;
+        }
+        li a{
+            color:white;
+        }
+
+        .logox{
+            height:100px;
+        }
+
+
+        /* Dropdown Button */
+.dropbtn {
+    background-color:red;
+    color: white;
+    border:none;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibr', 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    /* padding: 16px;
+    font-size: 16px;
+    border: none; */
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+   /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+   
+  /* Dropdown Content (Hidden by Default) */
+   .dropdownList {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } 
+  
+  /* Links inside the dropdown */
+   .dropdownList a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } 
+  
+  /* Change color of dropdown links on hover */
+   .dropdownList a:hover {background-color:rgb(94, 185, 94);} 
+  
+  /* Show the dropdown menu on hover */
+   .dropdown:hover .dropdownList {display: block;}
+   
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+   .dropdown:hover .dropbtn {color:black;} 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .required{
+            background-color:black;
+        }
+        *{
+            margin:0;
+            padding:0;
+            color:rgb(241, 244, 245);
+         }
+        .navigationBackground{
+            display: flex;
+            cursor:pointer;
+            padding:14px;
+        }  
+        .foot{
+            display: flex;
+            cursor:pointer;
+            padding:14px;
+        }
+        .footList{
+            width: 70px;
+            display:flex;
+            align-content: center;
+        }
+        .footList a{
+            float:left;
+            padding: 14px 16px;
+        }
+        .LOGO{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .navigationList{
+            width: 70px;
+            display:flex;
+            align-content: center;
+        }
+        .navigationList a{
+            float:left;
+            padding: 14px 16px;
+        }
+        .navigationList a:hover{
+           color:white;
+        }
+        #searchBar{
+            float:right;
+            padding:12px;
+            color:black;
+            margin-left:16px;
+            margin-top:8px;
+            margin-right:16px;
+        }
+        .main1{
+            display:flex;
+            justify-content:center;
+            align-items:center;    
+        }
+        .main3{
+            color:red;
+            padding:14px;
+            font-size:40px;
+        }
+    </style>
+</head>
+<body class="required">
+    <header>
+        <nav class="navigationBackground">
+            <ul class="navigationList">
+                <div class="LOGO">
+                    <img src="/logo.png" alt="GEU Logo">
+                </div>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/admission.html">ADDMISSIONS</a></li>
+                <li><a href="/academics.html">ACADEMICS</a></li>
+                <li><a href="/resources.html">RESOURCES</a></li>
+<!--                
+                <li><a href="/media.html">MEDIA</a></li> -->
+                <li class="dropdown">
+                    <a><button class="dropbtn">GALLERY</button></a>
+                    <div class="dropdownList">
+                      <a href="/campus.html">Campus</a>
+                      <a href="/grafest.html">Grafest</a>
+                      <a href="/awards.html">Awards</a>
+                      <a href="/convocation.html">Convocation</a>
+                    </div>
+                </li>
+                <li><input type="text" name="searchBar" id="searchBar" placeholder="SEARCH"></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <p class="main1"><img src="/nba.jpeg"></p>
+        <br><br>
+        <div class="main2">
+            <h2 class="main3"><b>Vision & Mission</b></h2>
+            <p>
+                <ul style="padding:20px">
+                <li>Introduction of need based conventional as well vocational courses</li>
+                <li>Introduction of information technology for diversification</li>
+                <li>To ensure the individual development to its full potential and development of ambiance and infrastructure for the growth of center of excellence in the department</li>
+                <li>Introduction of need based conventional as well vocational courses;To approach the very last needy person by increasing access while improving quality; etc.</li>     
+                <li>To ensure high quality of education and provide opportunity for higher education including professional education to all deserving seekers.</li>
+                <li>To arrange the feedback responses from students for quality related institutional processes.</li>
+                <li>To design and implement plans for institution level activities for quality enhancement etc.</li>
+                </ul>
+            </p>
+        </div>
+    </main>
+    <hr>
+    <br>
+    <footer>
+        <nav class="foot">
+            <ul class="footList" style="color:blue;padding:22px">
+                <li><pre >
+Copyright © 2022, Graphic Era Deemed To Be University 
+Dehradun. 
+Please contact: 7017953248</pre></li>
+                <li><a href="https://www.facebook.com/geuofficial/"><u>Facebook</u></a></li>
+                <li><a href="https://www.instagram.com/geuofficial/?hl=en"><u>Instagram</u></a></li>
+                <li><a href="https://in.linkedin.com/school/graphic-era-official/"><u>LinkedIn</u></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

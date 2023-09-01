@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .images{
+                display: inline-block;
+            }
+        .images img{
+            width:350px;
+            padding:12px 40px;
+        }
+    </style>
+</head>
+<body class="required">
+    <header>
+        <nav class="navigationBackground">
+            <ul class="navigationList">
+                <div class="LOGO">
+                    <img src="/logo.png" alt="GEU Logo">
+                </div>
+                <div class="navigationList" style="height:50px;width:685px;background-color:red;margin-left:20px;margin-top:20px">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/admission.html">ADDMISSIONS</a></li>
+                    <li><a href="/academics.html">ACADEMICS</a></li>
+                    <!-- <li><a href="/resources.html">RESOURCES</a></li> -->
+                   
+                    <!-- <li><a href="/media.html">MEDIA</a></li> -->
+                    <li class="dropdown">
+                        <a><button class="dropbtn">GALLERY</button></a>
+                        <div class="dropdownList">
+                          <a href="/campus.html">Campus</a>
+                          <a href="/grafest.html">Grafest</a>
+                          <a href="/awards.html">Awards</a>
+                          <a href="/convocation.html">Convocation</a>
+                        </div>
+                    </li>
+                    <li><a href="/faculty.html">FACULTY</a></li>
+                </div>
+                <div>
+                    <li>
+                        <form class="searchButton" action="/index.html">
+                            <input type="text" name="searchBar" id="searchBar" placeholder="SEARCH " style="border:solid 3px red;margin-top:22px">
+                        </form>
+                    </li>
+                </div>
+                    
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <div class="grafestImages" style="padding:14px">
+            <img class="slideImage" src="/grafest1.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest2.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest3.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest4.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest5.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest6.jpg" style="width:1300px;height:500px">
+            <img class="slideImage" src="/grafest7.jpg" style="width:1300px;height:500px">
+        </div>
+        <br><hr><br>
+        
+        <nav class="images">
+            <img src="/grafest1.jpg">
+            <img src="/grafest2.jpg">
+            <img src="/grafest3.jpg">
+        </nav>
+        <nav class="images">
+            <img src="/grafest4.jpg">
+            <img src="/grafest5.jpg">
+            <img src="/grafest6.jpg">
+        </nav>
+        <nav class="images">
+            <img src="/grafest7.jpg">
+        </nav>
+        <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slideImage");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length)
+             {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel,2000); // Change image every 4 seconds
+        }
+    </script>
+    </main>
+    <hr>
+    <footer>
+        <nav class="foot">
+            <div class="footList">
+                <pre>
+Copyright © 2022, Graphic Era Deemed To Be University 
+Dehradun. 
+Please contact: 7017953248</pre>
+                <p><a href="https://www.facebook.com/geuofficial/"><u>Facebook</u></a></p>
+                <p><a href="https://www.instagram.com/geuofficial/?hl=en"><u>Instagram</u></a></p>
+                <p><a href="https://in.linkedin.com/school/graphic-era-official/"><u>LinkedIn</u></a></p>
+                <p><a href="/form.html"><u>Enquiry Form</u></a></p>
+                </div>
+        </nav>
+    </footer>
+</body>
+</html>

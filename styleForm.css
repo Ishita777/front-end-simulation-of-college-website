@@ -1,0 +1,22 @@
+label{
+    color:red;
+    width:200px;
+    display:inline-block;
+    margin-bottom:30px;
+    font-size:25px;
+}
+.form{
+    text-align: center;
+    font-weight:bolder;
+}
+input[type=text]{
+    border: 2px solid red;
+  border-radius: 4px;
+}
+input[type=submit]
+{
+  background-color:red;
+  color:black;
+  font-size:20px;
+  border:solid 1px black;
+}

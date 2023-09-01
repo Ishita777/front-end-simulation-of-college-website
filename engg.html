@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Acad{
+            color:red;
+            font-size:60px;
+            padding:8px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .courseList{
+            list-style-type:none;
+            margin-left:10px;
+            font-weight:30px;
+        }
+        .courseList li{
+            margin-bottom:12px;
+            margin-left:8px;
+            font-size:30px;
+            font-family:'Gill Sans', 'Gill Sans MT','Calibri' , 'Trebuchet MS', sans-serif;
+        }
+        .courseList a{
+            text-decoration: none;
+        }
+        .courseList a:hover{
+            color:red;
+        }
+    </style>
+</head>
+<body class="required">
+    <header>
+        <nav class="navigationBackground">
+            <ul class="navigationList">
+                <div class="LOGO">
+                    <img src="/logo.png" alt="GEU Logo">
+                </div>
+                <div class="navigationList" style="height:50px;width:685px;background-color:red;margin-left:20px;margin-top:20px">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/admission.html">ADDMISSIONS</a></li>
+                    <li><a href="/academics.html">ACADEMICS</a></li>
+                    <!-- <li><a href="/resources.html">RESOURCES</a></li> -->
+         
+                    <!-- <li><a href="/media.html">MEDIA</a></li> -->
+                    <li class="dropdown">
+                        <a><button class="dropbtn">GALLERY</button></a>
+                        <div class="dropdownList">
+                          <a href="/campus.html">Campus</a>
+                          <a href="/grafest.html">Grafest</a>
+                          <a href="/awards.html">Awards</a>
+                          <a href="/convocation.html">Convocation</a>
+                        </div>
+                    </li>
+                    <li><a href="/faculty.html">FACULTY</a></li>
+                </div>
+                <div>
+                    <li>
+                        <form class="searchButton" action="/index.html">
+                            <input type="text" name="searchBar" id="searchBar" placeholder="SEARCH " style="border:solid 3px red;margin-top:22px">
+                        </form>
+                    </li>
+                </div>        
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <div>
+            <img src="/engg.jpg" style="width:1325px;margin-left:15px">
+        </div><br>
+        <p class="Acad">COURSES OFFERED</p>
+        <div class="course">
+            <section>
+                <ul class="courseList">
+                    <li><a href="/enggCourse.html">Computer Science And Engineering</a></li>
+                    <li><a href="/enggCourse.html">Civil Engineering</a></li>
+                    <li><a href="/enggCourse.html">Electronics And Communication Engineering</a></li>
+                    <li><a href="/enggCourse.html">Electrical Engineering</a></li>
+                    <li><a href="/enggCourse.html">Mechanical Engineering</a></li>
+                    <li><a href="/enggCourse.html">Petroleum Engineering and Earth Sciences</a></li>
+                    <li><a href="/enggCourse.html">Allied Sciences</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <nav class="foot">
+            <div class="footList">
+                <pre>
+Copyright © 2022, Graphic Era Deemed To Be University 
+Dehradun. 
+Please contact: 7017953248</pre>
+                <p><a href="https://www.facebook.com/geuofficial/"><u>Facebook</u></a></p>
+                <p><a href="https://www.instagram.com/geuofficial/?hl=en"><u>Instagram</u></a></p>
+                <p><a href="https://in.linkedin.com/school/graphic-era-official/"><u>LinkedIn</u></a></p>
+                <p><a href="/form.html"><u>Enquiry Form</u></a></p>
+                </div>
+        </nav>
+    </footer>
+</body>
+</html>
